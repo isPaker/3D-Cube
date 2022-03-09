@@ -26,7 +26,7 @@ function getDir(e, box){
 	var y = e.clientY - t - h / 2;
 
     //弧度转角度：弧度/(Math.PI / 180)
-	console.log(Math.atan2(y, x))
+	// console.log(Math.atan2(y, x))
 	var deg = Math.atan2(y, x) / (Math.PI / 180);
 	var d = (Math.round((deg + 180) / 90) + 3) % 4;
 	// console.log(d) [0, 1, 2, 3]
